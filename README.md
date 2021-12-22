@@ -10,6 +10,19 @@ npm run dev
 yarn dev
 ```
 
+For editing some source code :
+```bash
+# First clone this repository 
+git clone https://github.com/nenofetch/nenofetch-space
+cd nenofetch-space
+
+# Install node_modules using this command
+npm run i 
+# or
+yarn install
+
+# And you ready to development this project
+```
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
