@@ -1,6 +1,10 @@
 import Head from 'next/head'
+import React from 'react'
 
 export default function Home() {
+  React.useEffect(() => {
+    import("lottie-interactive/dist/lottie-interactive.js")
+  })
   return (
     <div>
       <Head>
@@ -8,7 +12,11 @@ export default function Home() {
         <meta name="description" content="Just some personal website" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <h1 className='font-extrabold underline decoration-wavy'>Comming Soon</h1>
+      <lottie-interactive
+        path="/animations/coming_soon.json"
+        autoplay
+        loop
+      />
     </div>
   )
 }
