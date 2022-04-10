@@ -1,5 +1,5 @@
 {
-  "name": "my-space",
+  "name": "nenofetch-space",
   "private": true,
   "scripts": {
     "dev": "next dev",
