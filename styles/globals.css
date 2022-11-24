@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
+
+@layer base {
+	html {
+		font-family: Inconsolata;
+	}
+	* {
+		@apply dark:bg-[#282727] bg-white;
+	}
+}
